@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+
+   <listeners>
+    <listener class-name="testngconcepts.SampleListener"/>
+   
+   
+   </listeners>
+  <test  name="TC004_orangehrmapplication">
+    <classes>
+      <class name="testngconcepts.TC004_orangehrmapplication"/>
+      </classes>
+      </test>
+      
+      <test  name="TC003_periorities">
+      <classes>
+          <class name="testngconcepts.TC003_periorities"/>
+      </classes>
+      </test>
+      
+      
+  
+  
+</suite> <!-- Regression -->

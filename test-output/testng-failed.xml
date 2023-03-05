@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <listeners>
+    <listener class-name="testngconcepts.SampleListener"/>
+  </listeners>
+  <test thread-count="5" name="TC004_orangehrmapplication(failed)">
+    <classes>
+      <class name="testngconcepts.TC004_orangehrmapplication">
+        <methods>
+          <include name="teardown"/>
+          <include name="forgotpassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testngconcepts.TC004_orangehrmapplication -->
+    </classes>
+  </test> <!-- TC004_orangehrmapplication(failed) -->
+</suite> <!-- Failed suite [Regression] -->

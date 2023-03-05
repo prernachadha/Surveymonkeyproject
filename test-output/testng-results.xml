@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="12756" started-at="2023-03-02T15:30:35Z" finished-at="2023-03-02T15:30:47Z">
+    <groups>
+    </groups>
+    <test name="TC004_orangehrmapplication" duration-ms="12711" started-at="2023-03-02T15:30:35Z" finished-at="2023-03-02T15:30:47Z">
+      <class name="testngconcepts.TC004_orangehrmapplication">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngconcepts.TC004_orangehrmapplication@11c7bf6]" name="setup" is-config="true" duration-ms="4531" started-at="2023-03-02T15:30:35Z" finished-at="2023-03-02T15:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gettitle()[pri:1, instance:testngconcepts.TC004_orangehrmapplication@11c7bf6]" name="gettitle" duration-ms="18" started-at="2023-03-02T15:30:39Z" finished-at="2023-03-02T15:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testngconcepts.TC004_orangehrmapplication@11c7bf6]" name="teardown" is-config="true" duration-ms="707" started-at="2023-03-02T15:30:39Z" finished-at="2023-03-02T15:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngconcepts.TC004_orangehrmapplication@11c7bf6]" name="setup" is-config="true" duration-ms="5254" started-at="2023-03-02T15:30:40Z" finished-at="2023-03-02T15:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="forgotpassword()[pri:2, instance:testngconcepts.TC004_orangehrmapplication@11c7bf6]" name="forgotpassword" duration-ms="1494" started-at="2023-03-02T15:30:45Z" finished-at="2023-03-02T15:30:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Reset page not opened expected [Reset Password] but found [[[ChromeDriver: chrome on WINDOWS (ba58bc6562d1aacc48619d25e0017def)] -> xpath: //button[@type = 'submit']]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Reset page not opened expected [Reset Password] but found [[[ChromeDriver: chrome on WINDOWS (ba58bc6562d1aacc48619d25e0017def)] -> xpath: //button[@type = 'submit']]]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at testngconcepts.TC004_orangehrmapplication.forgotpassword(TC004_orangehrmapplication.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testngconcepts.TC004_orangehrmapplication@11c7bf6]" name="teardown" is-config="true" duration-ms="671" started-at="2023-03-02T15:30:47Z" finished-at="2023-03-02T15:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngconcepts.TC004_orangehrmapplication -->
+    </test> <!-- TC004_orangehrmapplication -->
+    <test name="TC003_periorities" duration-ms="10" started-at="2023-03-02T15:30:47Z" finished-at="2023-03-02T15:30:47Z">
+      <class name="testngconcepts.TC003_periorities">
+        <test-method status="PASS" signature="display()[pri:1, instance:testngconcepts.TC003_periorities@106ebcb]" name="display" duration-ms="1" started-at="2023-03-02T15:30:47Z" finished-at="2023-03-02T15:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method status="PASS" signature="titlepage()[pri:2, instance:testngconcepts.TC003_periorities@106ebcb]" name="titlepage" duration-ms="1" started-at="2023-03-02T15:30:47Z" finished-at="2023-03-02T15:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlepage -->
+        <test-method status="PASS" signature="button()[pri:3, instance:testngconcepts.TC003_periorities@106ebcb]" name="button" duration-ms="1" started-at="2023-03-02T15:30:47Z" finished-at="2023-03-02T15:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- button -->
+      </class> <!-- testngconcepts.TC003_periorities -->
+    </test> <!-- TC003_periorities -->
+  </suite> <!-- Regression -->
+</testng-results>
