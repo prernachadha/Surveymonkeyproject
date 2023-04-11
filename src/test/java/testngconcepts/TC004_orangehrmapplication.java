@@ -44,6 +44,7 @@ public class TC004_orangehrmapplication {
 	{
 		driver.quit();
 	}
+       
 	@Test(priority = 1)
 	public void gettitle()
 	{
@@ -57,11 +58,13 @@ public class TC004_orangehrmapplication {
 	{
 		driver.findElement(By.xpath("//div[@class = 'orangehrm-login-forgot']")).click();
 		System.out.println("forgot password is clicked");
-		//Assert.assertEquals(driver.findElement(By.xpath("//h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']")), "Reset Password", "forget password page not opened");
-		//System.out.println("Forget password page is displayed");
+		//Assert.assertEquals(driver.findElement(By.xpath("//h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']")), "Reset Password", "Reset password button not there");
+		//System.out.println("Reset password page is displayed");
 		driver.findElement(By.name("username")).sendKeys("Admin");
-		Assert.assertEquals(driver.findElement(By.xpath("//button[@type = 'submit']")), "Reset Password", "Reset page not opened");
-		System.out.println("Reset page is displayed");
+		Assert.assertEquals(driver.findElement(By.xpath("//button[@type = 'submit']")).getText(), "Reset Password", "Reset page not opened");
+		System.out.println("Reset password button is displayed");
+		
+		//driver.findElement(By.xpath("//button[@type = 'submit']")).click();
 		
 	}
 	

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+   <listeners>
+   
+   <listener class-name ="testconcepts.ListenerTestcase"/>
+   
+   
+   </listeners>
+   
+    
+    
+    
+     
+    
+    
+     
+ 
+    
+    
+    
+  
+  <test thread-count="5" name="testconcepts.Tc001_testngconcepts">  
+    <classes>
+      <class name="testconcepts.Tc001_testngconcepts"/>
+      </classes>
+      </test>
+      
+    <test thread-count="5" name="testconcepts.TC003_practice">
+    <classes>
+      <class name="testconcepts.TC003_practice"/>
+      </classes>
+      </test>
+    
+       
+</suite> <!-- Suite -->

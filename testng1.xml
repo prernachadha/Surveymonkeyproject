@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+ <listener class-name="testconcepts.Sample"/>
+
+
+</listeners>
+  <test thread-count="5" name="testconcepts.Tc01_annotation">
+    <classes>
+      <class name="testconcepts.Tc01_annotation"/>
+      </classes>
+      </test>
+  
+  <test thread-count="5" name="testconcepts.Tc002_Orange">
+    <classes>
+      <class name="testconcepts.Tc002_Orange"/>
+      </classes>
+      </test>
+      
+      
+  </suite> <!-- Suite -->
